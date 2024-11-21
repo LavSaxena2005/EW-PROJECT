@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>All Courses</title>
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color:#4B4B4B;
+    background:#ffebc6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #FFB088;
+    color: white;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: white;
+    background: #FF7043;
+    padding: 15px;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #FFDAB9;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.products {
+    padding: 2rem;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 1.5rem;
+}
+
+.products h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: left;
+    display: inline-block;
+}
+
+.product-list {
+    display: block; 
+    margin-bottom: 2rem;
+    text-align: left;
+    width: 100%;
+}
+
+.product-card {
+    display: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.product-card button {
+    padding: 0.5rem 1rem;
+    background: #FF7043;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card button:hover {
+    background: #FF5722;
+}
+
+.product-list:hover .product-card {
+    display: inline-block;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">EW</div>
+        <nav>
+            <ul>
+                <li><a href="C:\Users\Hp\OneDrive\Desktop\ritik project\ew main1.html">Home</a></li>
+                <li><a href="C:\Users\Hp\OneDrive\Desktop\ritik project\ewstore.html">Products</a></li>
+                <li><a href="C:\Users\Hp\OneDrive\Desktop\ritik project\registration.html">Login/Registration</a></li>
+                <li><a href="C:\Users\Hp\OneDrive\Desktop\EW  PROJECT\contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Welcome to Educational Wallah</h1>
+        <p>Your one-stop Educational Platform for all courses.</p>
+    </section>
+    
+    <section id="products" class="products">
+        <h2>Our Courses</h2>
+        <div class="product-list">
+        <h1><span>Competetive Exams</span></h1><br>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/ZcHRlgXSqU7BJY9QDNSxwkPgsUI823wJAv8vkGlKrM8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTY0/NDcwOTY5L3ZlY3Rv/ci9hYnN0cmFjdC1h/dG9tLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1Gb0dsVWwx/WGhwd0hlMzJQbFFO/WG1pMmxaRElaMk5j/QWRaZGhVcnMxSTZv/PQ" alt="Product 1">
+                <h3>IIT JEE</h3>
+                <button>View Course</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/w_2MzFyGfZpSxqE8xN4X21PnmFoqsSK13_k73JCx3MA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA5LzIwLzU3LzQw/LzM2MF9GXzkyMDU3/NDA4M19yY3dhdVJy/aTFVM1N4cEVGNG9Q/Vkx0OVJzVjdsbmxM/Ni5qcGc" alt="Product 2">
+                <h3>NEET</h3>
+                <button>View Course</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAowWOVNvI5s7NjqlTVq4gpsF1rZHcYuvSzw&s" alt="Product 3">
+                <h3>ESE</h3>
+                <button>View Course</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFC3kwrjwGGnpcJQljSH9sZ2soyemm7DdEWA&s" alt="Product 4">
+                <h3>GATE</h3>
+                <button>View Course</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSUx7zr9gxwc1tpQKOvxTKn9T7mcImZ6Hc1PCYk246Q1LkCYej4" alt="Product 5">
+                <h3>AE/JE</h3>
+                <button>View Course</button>
+            </div>
+            <div class="product-card">
+                <img src="https://static.vecteezy.com/system/resources/previews/028/592/471/non_2x/1st-prize-trophy-hand-drawn-education-icon-free-png.png" alt="Product 6">
+                <h3>Olympiad</h3>
+                <button>View Course</button>
+            </div>
+        </div>
+<br>
+<br>
+
+
+
+        <div class="product-list">
+        <h1><span>Only IAS</span></h1><br>
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSKXEp8exZhneoJxL-1GV4Zhepi5OnjB-wYsOv7_zDqbjizbuQx" alt="Product 7">
+                <h3>UPSC</h3>
+                <button>View Course</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRTqJP4O3OtZolH8acsACqwkjDB-1jKhQFB9IYcwIR0ytD--L5k" alt="Product 8">
+                <h3>State PSC</h3>
+                <button>View Course</button>
+            </div>
+        </div>
+<br>
+<br>
+
+
+
+        <div class="product-list">
+        <h1><span>Finance</span></h1><br>
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSkpwy3Nyh3q176EFV1qp0FgZNnwUOQ8mSp0HhvSThM8a4Ttaeq" alt="Product 9">
+                <h3>CA</h3>
+                <button>View Course</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZmgk0WRuDiBhnzqJ-E6eQDru7by3JQ0l4FUJcxJSwFL2_ktPt" alt="Product 10">
+                <h3>CS</h3>
+                <button>View Course</button>
+            </div>
+        </div>
+<br>
+<br>
+
+
+
+        <div class="product-list">
+        <h1><span>Others</span></h1><br>
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRs3DYEhWsUdP2oCpdUuSL1ZSO8AnuIZl7ibhWC2L0bqjKlNqKA" alt="Product 10">
+                <h3>English Wallah</h3>
+                <button>View Course</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTQfYoX_-vx-r2AmyIGcJguF6wnUlDLTcpOJ60K_vSw9j-lkPJ6" alt="Product 11">
+                <h3>Online Degrees</h3>
+                <button>View Course</button>
+            </div>
+        </div>
+<br>
+<br>
+
+
+
+    </section>
+</body>
+</html>
