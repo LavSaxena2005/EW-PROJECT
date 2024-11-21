@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EW Live</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .contact-container {
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .team-member {
+            margin: 15px 0;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+        }
+        .team-member:last-child {
+            border-bottom: none;
+        }
+        .profile-pic {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .details {
+            flex: 1;
+        }
+        .name {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .position {
+            color: #555;
+        }
+        .contact {
+            margin-top: 8px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p><strong>EW Live - Transforming Education with Technology</strong></p>
+        
+        <div class="team-member">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGaPfzHOSpwlw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724258151624?e=1736985600&v=beta&t=-qj9X4xjEQd4CmRreSDUpD2JSfPikwLPAHxEebV7GKM" alt="Lav Saxena" class="profile-pic">
+            <div class="details">
+                <p class="name">Lav Saxena</p>
+                <p class="position">Managing Director & Chief Executive Officer</p>
+                <p class="contact">Contact: 8299877219</p>
+                <p class="contact">Email: lav0101@ew.com</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="https://i.pinimg.com/280x280_RS/ef/0a/24/ef0a246338684a9792e9820b07529a4d.jpg" alt="Sahil Khan" class="profile-pic">
+            <div class="details">
+                <p class="name">Sahil Khan</p>
+                <p class="position">Chief Strategy Officer & Search Engine Optimisation Specialist</p>
+                <p class="contact">Email: sahil0101@ew.com</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQFMae9-pvXWvQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1710267675985?e=1736985600&v=beta&t=z-IzD_iUYtSgoNzn7juNybHhk7TmBDFhJJGgzuZ88nA" alt="Kavyansh Saxena" class="profile-pic">
+            <div class="details">
+                <p class="name">Kavyansh Saxena</p>
+                <p class="position">Chief Human Resources Officer</p>
+                <p class="contact">Email: kavyansh0101@ew.com</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
