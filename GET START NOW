@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EW Live - Transforming Education with Technology</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+        .info {
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .info div {
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>EW Live - Transforming Education with Technology</h1>
+    </header>
+
+    <section>
+        <h2>Win up to 100% Scholarship</h2>
+        <p>Take the <span class="highlight">EW National Scholarship Test (EWNSAT)</span> and stand a chance to win a full scholarship!</p>
+        <div class="info">
+            <div>
+                <img src="https://thumbs.dreamstime.com/b/scholarship-application-student-money-education-scholarship-application-student-money-education-concept-117615540.jpg" alt="Tests Conducted Icon" width="50"><br>
+                <br> 1000+<br>Tests Conducted
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5NxzRZ4aItxp_AEvCUm3dq477dzjYkIaUyQ&s" alt="Scholarships Icon" width="50"><br>
+                240 Cr+<br>Worth Scholarships Given
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYEyyy5hYJqDOtDXyrOiMWoFd3DlVie8svfg&s" alt="Students Icon" width="50"><br>
+                100K+<br>Students Received Scholarships
+            </div>
+            <div>
+                <img src="https://static.toiimg.com/thumb/msid-113781429,imgsize-1142696,width-400,resizemode-4/113781429.jpg" alt="Tests Enrolled Icon" width="50"><br>
+                16L+<br>Tests Enrolled
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Free Guidance Sessions with Star Faculty</h2>
+        <p>Join EW's free guidance sessions and interact with expert faculty. Get all your queries resolved and learn key strategies for competitive exams.</p>
+        <ul>
+            <li>Live session with EW Star Faculties</li>
+            <li>Tips & tricks to crack IIT/NEET</li>
+            <li>All queries resolved in real-time</li>
+            <li>Introduction to EW Vidyapeeth offerings</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>A Platform Trusted by Students Worldwide</h2>
+        <p>Join a community of successful students who have benefited from EW's comprehensive education services.</p>
+        <div class="info">
+            <div>500+ Faculties</div>
+            <div>100+ Batches</div>
+            <div>10Lacs+ Lectures Delivered</div>
+            <div>1000+ Tests Conducted</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Hear from Our Achievers</h2>
+        <p>"EW has been my guiding light throughout my preparation journey. The exceptional content and teaching methods helped me secure a top rank!" - <strong>Sayeba Khatun</strong>, AIR 773, NEET</p>
+        <p>"Studying at EW was a game changer for me. The well-structured courses, doubt sessions, and support from faculty were instrumental in my success." - <strong>Sanjib Mandal</strong>, AIR 1144, NEET</p>
+    </section>
+
+        
+</body>
+</html>
