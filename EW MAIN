@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW Live - Online Education</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #1e2a47;
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            height: 50px; /* Set the logo size */
+            margin-left: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* Navigation Bar Styles */
+        nav {
+            background-color: #2c86d3;
+            padding: 10px;
+            text-align: right;
+            position: sticky;
+            top: 0;
+            z-index: 800;
+        }
+        ul{
+          list-style-type:none;
+          margin:0;
+          padding:0;
+          overflow:hidden;
+        }
+        li{
+          float:left;
+        }
+
+        li a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+
+        li a:hover {
+            background-color: #1e72c6;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 40px;
+            background-color: white;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .grid-container .card {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .grid-container .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .grid-container .card h3 {
+            color: #333;
+        }
+
+        .testimonials {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .testimonials .testimonial {
+            background-color: #e9f7ff;
+            padding: 20px;
+            width: 30%;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #1e2a47;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .counter {
+            font-size: 2em;
+            color: #2c86d3;
+        }
+
+        .exam-categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .exam-categories .category {
+            width: 20%;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .exam-categories .category h4 {
+            color: #333;
+        }
+
+        .locations {
+            background-color: #1e2a47;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .locations .city {
+            display: inline-block;
+            margin: 10px;
+            background-color: #3c4b70;
+            padding: 10px 15px;
+            border-radius: 25px;
+            font-size: 18px;
+        }
+
+        .cta-button {
+            display: block;
+            width: 250px;
+            margin: 0 auto;
+            background-color: #2c86d3;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .cta-button:hover {
+            background-color: #1e72c6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header with Logo -->
+    <header>
+        <img src="https://yt3.googleusercontent.com/AaLsHYPduOjFcdvZr0s4nWK_QXKOEBh5v5y8BBGcJ6YifdfcGs19MMwAds32Ph7gDsOae40xmg=s900-c-k-c0x00ffffff-no-rj" alt="PW Live Logo">
+        <h1>EW Live - Transforming Education with Technology</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+<marquee>
+    <nav>
+       <ul id="navlist">
+       <li> <a href="C:\Users\Hp\OneDrive\Desktop\EW  PROJECT\all courses.html">All Courses</a></li>
+       <li> <a href="C:\Users\Hp\OneDrive\Desktop\EW  PROJECT\ew Lstore.HTML">EW Store (Books)</a></li>
+        <li><a href="C:\Users\Hp\OneDrive\Desktop\EW  PROJECT\registration.html">Login/Register</a></li>
+        <li><a href="C:\Users\Hp\OneDrive\Desktop\EW  PROJECT\contact.html">contact</a></li>
+        </ul>
+    </nav>
+</marquee>
+
+    <!-- Interactive Classes Section -->
+    <section id="all-courses">
+        <h2>Interactive Live Classes</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZ36Yoe0XFP53ArSmWCaWaPsC2RuNFheAJQ&s" alt="Interactive Classes Image">
+                <h3>Live Classes with Experts</h3>
+                <p>Engage in live sessions with top educators, clear doubts, and learn effectively.</p>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS__tBOB10wJSHAxPPG7O1bPPHvVTQBOn3L_A&s" alt="Tests and Sample Papers">
+                <h3>Tests & Sample Papers</h3>
+                <p>Prepare for exams with practice tests, sample papers, and notes available 24/7.</p>
+            </div>
+            <div class="card">
+                <img src="data:image/png;base64,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" alt="Doubt Solving Sessions">
+                <h3>24/7 Doubt Solving</h3>
+                <p>Get your doubts resolved anytime with expert guidance and personalized attention.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exam Categories Section -->
+    <section>
+        <h2>Explore Our Exam Categories</h2>
+        <div class="exam-categories">
+            <div class="category">
+                <h4>NEET</h4>
+                <p>Class 11, 12, Dropper</p>
+            </div>
+            <div class="category">
+                <h4>IIT JEE</h4>
+                <p>Class 11, 12, Dropper</p>
+            </div>
+            <div class="category">
+                <h4>School Preparation</h4>
+                <p>Class 6, 7, 8</p>
+            </div>
+            <div class="category">
+                <h4>Govt Job Exams</h4>
+                <p>SSC, Banking, Judiciary</p>
+            </div>
+            <div class="category">
+                <h4>Defence</h4>
+                <p>NDA, CDS, Agniveer</p>
+            </div>
+            <div class="category">
+                <h4>CA</h4>
+                <p>Foundation, Intermediate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section>
+        <h2>Our Impact</h2>
+        <div class="counter">10 Million+ Happy Students</div>
+        <div class="counter">500+ Mock Tests</div>
+        <div class="counter">1 Million+ Video Lectures</div>
+        <div class="counter">5 Million+ Practice Papers</div>
+    </section>
+
+    <!-- Offline Centers Section -->
+    <section class="locations">
+        <h2>Explore Tech-Enabled Offline Vidyapeeth Centres</h2>
+        <p>Find our centres in 105 cities</p>
+        <div class="city">Kota</div>
+        <div class="city">Patna</div>
+        <div class="city">Noida</div>
+        <div class="city">Jaipur</div>
+        <div class="city">Ahmedabad</div>
+        <div class="city">Kolkata</div>
+        <div class="city">New Delhi</div>
+        <div class="city">Bareilly</div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section>
+        <h2>What Our Students Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <h3>"Best platform for learning!"</h3>
+                <p>- Student A</p>
+            </div>
+            <div class="testimonial">
+                <h3>"The mock tests helped me a lot!"</h3>
+                <p>- Student B</p>
+            </div>
+            <div class="testimonial">
+                <h3>"Thanks to EW Live, I aced my exams!"</h3>
+                <p>- Student C</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section>
+        <h2>Join 15 Million+ Students Today!</h2>
+        <a href="C:\Users\Hp\OneDrive\Desktop\EW  PROJECT\GET START NOW.HTML" class="cta-button">Get Started Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 EW Live. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
