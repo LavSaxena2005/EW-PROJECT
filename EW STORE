@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EW Store</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #282c34;
+    color: white;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #61dafb;
+    background:black;
+    padding:15px;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #f4f4f4;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.products {
+    padding: 2rem;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 1.5rem;
+}
+
+.products h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    text-align:left;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.product-card button {
+    padding: 0.5rem 1rem;
+    background: #61dafb;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card button:hover {
+    background: #21a1f1;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #282c34;
+    color: white;
+    margin-top: 2rem;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">EW Store</div>
+        <nav>
+            <ul>
+                <li><a href="C:\Users\Hp\OneDrive\Desktop\ritik project\all courses.html">All Courses</a></li>
+                <li><a href="C:\Users\Hp\OneDrive\Desktop\ritik project\ewstore.html">EW Store(Books)</a></li>
+                <li><a href="C:\Users\Hp\OneDrive\Desktop\ritik project\registration.html">Login/Register</a></li>
+                <li><a href="C:\Users\Hp\OneDrive\Desktop\EW  PROJECT\contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Welcome to EW Store</h1>
+        <p>Your one-stop shop for all educational resources.</p>
+    </section>
+    
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <h1>Popular NEET Books</h1>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/be4c5776-4a85-4461-94bd-11681e3e6000.png" alt="Product 1">
+                <h3>Yakeen for NEET Droppers(2024 Edition)</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/a946956d-c803-48e4-8932-40dd1d30ee3e.png" alt="Product 2">
+                <h3>Arjuna for NEET Class 11th(2024 Edition)</h3>
+                <p>Price: ₹399</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2920e807-061e-4943-a14e-498725aa2465.png" alt="Product 3">
+                <h3>Lakshya for NEET (2024 Edition)</h3>
+                <p>Price: ₹599</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/98e3cdf1-f16c-43aa-a7b1-7798ed43b99f.png" alt="Product 4">
+                <h3>37 Years NEET Previous Year Solved Questions</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/8346dc96-0897-4350-b791-95526634fb21.png" alt="Product 5">
+                <h3>Objective NCERT Punch</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/2d4fc3b4-f12f-4f14-8f56-65a52e25fa96.png" alt="Product 6">
+                <h3>Sprint NEET Crash Course</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <h1>Popular JEE Books</h1>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/eb57f15f-a1d9-44a3-a8d1-39aecf35bbc0.png" alt="Product 7">
+                <h3>Prayas for JEE Main & Advanced (2024 Edition)</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/42178cbc-1934-4b5e-a839-cd7011a3e2df.png" alt="Product 8">
+                <h3>Arjuna for JEE Main & Advanced</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/f58ad610-6b6f-4d9e-b7fd-dec5b23414f7.png" alt="Product 9">
+                <h3>Lakshya for JEE Main & Advanced Class 12th</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/cc7d7600-fd79-4f74-a3f0-6e9ef3d55192.png" alt="Product 10">
+                <h3>47 Years Physics, Chemistry and Mathematics</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/7b9901bd-a5a5-4813-a7a2-b563d368d801.png" alt="Product 11">
+                <h3>JEE Main 6 Years (2019-2024)</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/4604287b-56c5-44a2-9147-2f506600a053.png" alt="Product 12">
+                <h3>Sprint JEE Crash Course Class</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <h1>Popular PG/Govt. Entrance Exams</h1>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="https://static.pw.live/5eb393ee95fab7468a79d189/0c0b52b7-57fb-4b87-9c17-cdfe17a29277.png" alt="Product 13">
+                <h3>SSC Daksh Modules Combo Set of 11 Books</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/c91bd992-ea66-4147-a979-754522a00f57.png" alt="Product 14">
+                <h3>Combo Set of 5 Books For All Banking Exams 2024 - 2025</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/8d52ee40-73a0-4dda-9ae4-09dd9383b2da.png" alt="Product 15">
+                <h3>UPSC CSAT Wallah 10 Previous Years Solved Questions (2014 - 23)</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/c3465b2d-0b8d-4aad-930d-21f0e5ba9e54.png" alt="Product 16">
+                <h3>GATEWALLAH Topicwise Previous Years Solved Questions</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/aebf1221-2613-460c-a2f4-a1bb6cd64309.png" alt="Product 17">
+                <h3>Computer Science & IT and Engineering Mathematics & General Aptitude</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/124ccf1c-9a56-4a5d-a5e0-b8f165db0246.png" alt="Product 18">
+                <h3>PWONLYIAS UPSC Wallah GS + CSAT Combo Set</h3>
+                <p>Price: ₹499</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 EW Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
